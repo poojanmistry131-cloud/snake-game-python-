@@ -71,7 +71,7 @@ To check that Python is installed, open Command Prompt and type `python --versio
 - Python 3.8 or higher
 - Pygame
 
-## How to Run
+## How to Run(which use github in daily bases)
 
 ### 1. Clone the repository
 
