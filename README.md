@@ -2,6 +2,61 @@
 
 A classic Snake game built with **Python** and **Pygame**. Control the snake, eat the apples, grow longer, and avoid hitting the walls or yourself!
 
+## How to Run (For Beginners)
+
+### Before you start
+
+Install **Python** on your computer:
+
+1. Go to https://www.python.org/downloads/ and download Python.
+2. Run the installer and **tick the box "Add Python to PATH"** at the bottom of the first screen.
+3. Click "Install Now".
+4. Install **VS Code** from https://code.visualstudio.com/ if you do not have it.
+
+To check that Python is installed, open Command Prompt and type `python --version`. You should see a version number.
+
+### Steps
+
+1. Open this repository page on GitHub.
+2. Click the green **Code** button, then click **Download ZIP**.
+3. Open your Downloads folder. You will find a file named `snake-game-python--main.zip`.
+4. Right-click on the zip file and click **Extract All**.
+5. Move the extracted folder to your **C: drive** (or Desktop).
+6. Open **VS Code**.
+7. Press `Ctrl + Shift + E` to open the Explorer panel.
+8. Click **Open Folder**.
+9. Select the extracted folder `snake-game-python--main` and click **Select Folder**.
+10. Open the terminal in VS Code by pressing `` Ctrl + ` `` (the backtick key, just below the Esc key).
+11. You will see a path like this in the terminal:
+
+    C:\snake-game-python--main
+
+12. If you see a second folder with the same name inside, go into it by typing:
+
+    cd snake-game-python--main
+
+    Now the path should look like this:
+
+    C:\snake-game-python--main\snake-game-python--main
+
+    Make sure you can see the files `snake_game.py` and `requirements.txt` in this folder.
+
+13. Install the required library by typing:
+
+    pip install -r requirements.txt
+
+14. Start the game by typing:
+
+    python snake_game.py
+
+15. The game window will open. Enjoy the game! 🎮
+
+### Common problems
+
+- **'python' is not recognized** → Python is not added to PATH. Reinstall Python and tick "Add Python to PATH".
+- **'pip' is not recognized** → Try `python -m pip install -r requirements.txt`.
+- **No such file or directory: requirements.txt** → You are in the wrong folder. Use the `cd` command (step 12) until you see `snake_game.py` in the folder.
+
 ## Features
 
 - Smooth grid-based movement (640x480 window)
